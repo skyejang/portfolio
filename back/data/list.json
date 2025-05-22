@@ -1,0 +1,56 @@
+[
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": "Frontend Developer",
+    "s_description": "CRM app development for customer rewards and loyalty on the Cafe24 platform",
+    "project_id": "6816d2e14884e0ab32cd824b"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": "Frontend Developer",
+    "s_description": "CRM app development for address-free gift-giving and reward campaigns on the Cafe24 platform",
+    "project_id": "6816d2e14884e0ab32cd824c"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": "Frontend Developer",
+    "s_description": "Developed a customizable widget suite to enhance product detail pages on Cafe24 platform",
+    "project_id": "6816d2e14884e0ab32cd824d"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": ["Frontend Developer", "UI Design", "PM"],
+    "s_description": "Developed the corporate website and admin dashboard for Geukdong Office Equipment",
+    "project_id": "6816d2e14884e0ab32cd824e"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": "Frontend Developer",
+    "s_description": "A web app that aggregates stores offering a 100-won first-time purchase discount on a Korean e-commerce platform",
+    "project_id": "6816d2e14884e0ab32cd824f"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": "Frontend Developer",
+    "s_description": "Enhanced the errand registration interface and built a comprehensive admin page for task management",
+    "project_id": "6816d2e14884e0ab32cd8250"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": ["Frontend Developer", "PM"],
+    "s_description": "Developed the corporate website and admin page",
+    "project_id": "6816d2e14884e0ab32cd8251"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": ["Frontend Developer"],
+    "s_description": "Developed a custom ladder game for event engagement",
+    "project_id": "6816d2e14884e0ab32cd8252"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": ["Frontend Developer", "UI Design"],
+    "s_description": "Developed a release date reminder movie mobile app",
+    "project_id": "6816d2e14884e0ab32cd8253"
+  }
+]

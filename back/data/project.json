@@ -1,0 +1,170 @@
+[
+  {
+    "title": "E-commerce Solution : Reward Link",
+    "link": "https://store.cafe24.com/kr/apps/14083",
+    "description": [
+      "To drive new member acquisition and encourage repeat purchases from existing customers, I contributed to the development of a viral marketing service called Reward Link, which distributes rewards through event links. The app allows store managers to create and customize events, enabling them to run targeted campaigns and achieve effective marketing results."
+    ],
+    "stack": [
+      "CSS",
+      "JS",
+      "Vue.js",
+      "Tailwind css",
+      "PHP",
+      "Laravel",
+      "Blade",
+      "Mysql"
+    ],
+    "work_type": "Team Project",
+    "contribution": [
+      "As the first project I took on after joining the company, I contributed to the development of a viral marketing feature that distributes rewards through event links. Throughout this project, I significantly improved my collaboration skills by working closely with the planning team and leveraged my prior understanding of UX to design a user-friendly, highly customizable interface.",
+      "I also received positive feedback from fellow developers for my quick comprehension and clean code, which facilitated smooth and efficient teamwork. As a result, the app empowered store managers to easily manage marketing events, greatly improving campaign efficiency and driving both new member acquisition and repeat purchases."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "E-commerce Solution : Giftin",
+    "link": "https://store.cafe24.com/kr/apps/15706",
+    "description": [
+      "Developed a seamless gift-giving service for Cafe24 that allows customers to send gifts without knowing the recipient’s address. After the purchase is completed, the recipient receives a notification via messenger and can directly enter their delivery address. They can also view received gifts through a chatbot. In addition, store managers can run reward events for members who place gift orders and easily track and manage these orders separately within the Cafe24 admin panel."
+    ],
+    "stack": [
+      "CSS",
+      "JS",
+      "Vue.js",
+      "Tailwind css",
+      "PHP",
+      "Laravel",
+      "Blade",
+      "Mysql"
+    ],
+    "work_type": "Team Project",
+    "contribution": [
+      "In the Giftin project, I was responsible for developing the admin panel that enables store managers to efficiently manage gift orders. I worked closely with the frontend developer in charge of the recipient-facing interface—where users enter their delivery addresses via messenger—to ensure that the settings configured by managers were accurately reflected on the user side. This collaboration contributed to a more cohesive user experience and provided store managers with a streamlined, intuitive system for handling gift-related operations. The Giftin app was adopted by over 650 partner companies within its first year, achieving a 250% quarterly growth rate in gift transactions. It also maintained a 95% retention rate among paying subscribers, establishing itself as a widely used and valued tool.",
+      "These outcomes were made possible through the successful implementation of the admin panel and smooth cross-functional collaboration within the team."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "E-commerce Solution : Detail Page Widget",
+    "link": "https://store.cafe24.com/kr/apps/14838",
+    "description": [
+      "Developed a Detail Page Widget for Cafe24 that enhances product pages with six key features: purchase push notifications, real-time views, average delivery time indicators, shipping countdowns, personalized lowest price alerts, and coupon books. Each feature is modular, allowing store owners to toggle them on or off based on their needs. The widget also includes pattern analysis capabilities, helping merchants identify trends and optimize their marketing strategies."
+    ],
+    "stack": [
+      "CSS",
+      "JS",
+      "Vue.js",
+      "Tailwind css",
+      "PHP",
+      "Laravel",
+      "Blade",
+      "Mysql"
+    ],
+    "work_type": "Team Project",
+    "contribution": [
+      "For my second project, I developed a customizable Detail Page Widget that allows merchants to toggle features on and off based on their needs. This was my first experience collaborating with other frontend developers, where we worked closely to define technical requirements and document them thoroughly. The widget integrates various features—including purchase push notifications, real-time views, and average delivery time indicators—giving merchants the flexibility to activate only the components that are relevant to their store.",
+      "This flexibility received strong user feedback, with many calling the app an essential tool. The ability to tailor the widget to specific needs was especially well-received and is expected to significantly boost user engagement and drive more traffic to online stores."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "Corporate Website for Office Equipment",
+    "link": "https://www.busancopy.co.kr/",
+    "description": [
+      "To strengthen Geukdong Office Equipment’s online presence and enhance management efficiency for inquiries and user reviews, I developed both the company website and an internal admin dashboard. The website features an intuitive, user-friendly interface and responsive design for optimal accessibility across various devices. The admin dashboard integrates product management, review moderation, and customer support tools, enabling more efficient operations and centralized control."
+    ],
+    "stack": ["Less", "JS", "Node.js", "Express", "EJS", "REST API"],
+    "work_type": "Team Project",
+    "contribution": [
+      "As the project manager and frontend developer, I led UI planning and screen design, and completed the frontend implementation using Vanilla JS, Node.js, and EJS. By integrating product management and order processing into the admin dashboard, the system significantly reduced administrative workload and improved operational efficiency. These improvements also contributed to a notable increase in user satisfaction, resulting in the site’s continued active use for over six years."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "Discount Shop Aggregator : Avocart",
+    "link": "",
+    "description": [
+      "To help users discover and shop at stores offering special discounts, I developed a web app, Avocart, that categorizes and displays stores on a Korean e-commerce platform offering a 100-won discount for first-time purchases. The app enables users to easily browse and access these stores, improving the overall shopping experience and helping merchants boost their sales."
+    ],
+    "stack": [
+      "CSS",
+      "JS",
+      "Vue.js",
+      "Tailwind css",
+      "PHP",
+      "Laravel",
+      "Blade",
+      "Mysql"
+    ],
+    "work_type": "Team Project",
+    "contribution": [
+      "I developed Avocart, a web app that categorizes and displays stores offering a 100-won discount for first-time buyers. I focused on delivering an intuitive and responsive user interface through close collaboration with the design and backend teams. I was recognized for my ability to quickly grasp complex requirements and write clean, maintainable code. The app helped participating stores attract more new customers by increasing their visibility."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "Updated the Errand Registration UI and Developed the Admin Page",
+    "link": "",
+    "description": [
+      "To improve the efficiency of the existing errand service Helperit, our team developed a dedicated admin page to manage the matching process between helpers and customers, as well as to track the status of errands—such as registered, in progress, and completed. Previously, these tasks had to be handled manually, leading to inefficiencies in scheduling, matching, and sending reminders.",
+      "We built an admin interface that categorizes errands by filters such as status, name, and category, allowing for more streamlined management. It also supports editing errands, matching helpers, and managing customer and helper databases. Additionally, we redesigned the errand registration UI to make it more intuitive and user-friendly, ultimately enhancing the service’s usability and operational efficiency."
+    ],
+    "stack": [
+      "CSS",
+      "JS",
+      "Vue.js",
+      "Tailwind css",
+      "PHP",
+      "Laravel",
+      "Blade",
+      "Mysql"
+    ],
+    "work_type": "Team Project",
+    "contribution": [
+      "As a frontend developer on the team, I played an active role in implementing the admin page. I collaborated closely with backend developers to integrate database management and basic CRUD operations. One of the major challenges I tackled was implementing complex multi-condition filters, which I overcame by studying Laravel and receiving guidance from senior developers. I also improved the errand registration UI, making the interface more user-friendly and significantly enhancing the platform’s usability and internal workflow efficiency."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "Website for a Cleaning Service Company",
+    "link": "https://www.hellacompany.co.kr/",
+    "description": [
+      "To establish a strong online presence during Hella Company's expansion phase, our team developed a corporate website that builds customer trust by showcasing detailed company information. The site features the company's history, core cleaning services, and updates on completed projects. As our first collaborative project with fellow developers and designers, we also implemented a contact feature to streamline customer inquiries. The website was built with a responsive and user-friendly interface to ensure accessibility across all devices."
+    ],
+    "stack": ["Less", "JS", "Node.js", "Express", "EJS", "REST API"],
+    "work_type": "Team Project",
+    "contribution": [
+      "As the project manager and frontend developer, I led UI planning and screen design while writing clean, reusable code. I developed the frontend using Vanilla JS, Node.js, and EJS, with a focus on modular styling and performance. I also implemented the admin page, which enables service case registration and content management, significantly improving internal workflow efficiency and reducing the burden on staff. These enhancements not only increased user satisfaction but also supported the company’s business growth."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "Ladder Game",
+    "link": "https://github.com/skyejang/laddergame",
+    "description": [
+      "I developed a ladder game for the Korea Racing Authority, designed to be used during intermissions at horse racing events. The game was customized using Canvas.js to meet client specifications and optimized for various screen sizes. To enhance accessibility, it was designed to be fully operable via keyboard. This was a solo project, and I independently managed the entire development process from start to finish."
+    ],
+    "stack": ["HTML", "CSS", "Canvas.js", "JS"],
+    "work_type": "Personal Project",
+    "contribution": [
+      "As the sole developer of the project, I built the game using Canvas.js, JavaScript, HTML, and CSS. Despite having no prior experience with Canvas.js, I quickly learned its structure and modified the codebase to meet detailed client requests. One of the main challenges involved animating the client’s mascot to move in sync with the ladder's color transitions and timing. I also resized the ladder for better visibility on large screens and implemented a responsive layout that adjusts the ladder length based on the number of steps selected. Throughout this process, I discovered that many of the visual challenges could be effectively solved using fundamental CSS techniques, which I applied successfully."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "Release Date Reminder Movie App : SkyeFlix",
+    "link": "https://github.com/jshawn0916/skyeflix",
+    "description": [
+      "SkyeFlix is a mobile application designed to help users stay updated on movie release schedules tailored to their country. Developed as a capstone project at Humber College, the app is built with React Native and automatically fetches movie release data based on the user’s location. Without requiring registration or login, users can set push notifications for upcoming releases and easily manage their interests.",
+      "Key features include a comprehensive movie listing, detailed movie information, and the ability to manage push notifications. Users can also customize and maintain a favorites list to keep track of movies they’re most excited about."
+    ],
+    "stack": ["React Native expo cli"],
+    "work_type": "Personal Project",
+    "contribution": [
+      "As a solo developer, I was responsible for the entire development lifecycle of SkyeFlix—from choosing the project topic and identifying key features, to conducting feasibility and cost analysis (e.g., API usage). I also designed the UI/UX, conducted user testing, and managed all development tasks independently.",
+      "Initially, I underestimated the importance of each stage, but as the project progressed, I realized how vital they were. Through this experience, I gained insights into decision-making both in team environments and as an independent developer. I learned to prioritize effectively, balance technical and design considerations, and take ownership of a project from start to finish."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
+  }
+]

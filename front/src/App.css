@@ -1,0 +1,123 @@
+/* App.jsx에서 다루는 컴포넌트 스타일링 */
+#root {
+  display: fit-content;
+}
+
+.box_card {
+  height: 330px;
+  cursor: pointer;
+}
+.card_text {
+  opacity: 0;
+}
+.box_card:hover .card_text {
+  opacity: 100;
+  transition: all ease 0.7s;
+}
+
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 48px;
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-loop 18s linear infinite;
+}
+.marquee-track h2 {
+  display: inline-block;
+  padding-right: 2rem; /* 간격 */
+}
+
+@keyframes marquee-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.career-btn {
+  transition: all ease 0.5s;
+  transform: rotate(0deg);
+}
+.career-btn.open {
+  transform: rotate(180deg);
+}
+.career-text {
+  padding: 0 36px;
+  position: relative;
+  max-height: 0;
+  overflow: hidden;
+  transition: all ease 0.5s;
+  margin-top: 0;
+}
+.career-text.open {
+  margin-top: 16px;
+  max-height: 200px;
+}
+.career-text::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 18px;
+  background-color: var(--color-mgreen-500);
+}
+
+/* detail modal styling */
+.arrow-btn {
+  transform: rotate(180deg);
+}
+.arrow-btn:hover {
+  transform: rotate(360deg);
+  transition: all ease 0.3s;
+}
+.detail-title {
+  color: var(--color-slate-500);
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.detail-content {
+  color: var(--color-slate-800);
+  font-size: var(--text-xl);
+  line-height: 1.2;
+}
+@media (max-width: 1280px) {
+  .detail-content {
+    font-size: var(--text-lg);
+    line-height: 1.2;
+  }
+}
+@media (max-width: 640px) {
+  .detail-content {
+    font-size: var(--text-base);
+    line-height: 1.2;
+  }
+}
+.stack-tag {
+  font-size: var(--text-lg);
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  backdrop-filter: blur(4px);
+}
+
+@media (max-width: 1280px) {
+  .stack-tag {
+    font-size: var(--text-base);
+    padding: 4px 16px;
+  }
+}
+@media (max-width: 500px) {
+  .stack-tag {
+    font-size: var(--text-sm);
+    padding: 4px 16px;
+  }
+}
+.role + .role {
+  margin-left: 4px;
+}
