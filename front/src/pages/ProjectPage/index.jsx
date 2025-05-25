@@ -4,6 +4,7 @@ import Margin from "../../components/Margin";
 import axios from "axios";
 import DetailPage from "../DetailPage";
 import { AnimatePresence } from "framer-motion";
+import SkeletonCard from "../../components/SkeletonCard";
 const apiUrl = import.meta.env.VITE_API_URL;
 
 const colorSets = [
@@ -44,6 +45,7 @@ function getRandomColorSet() {
 
 const ProjectPage = () => {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -52,12 +54,14 @@ const ProjectPage = () => {
         const projectsWithColors = response.data.map((project) => {
           return {
             ...project,
-            colorSet: getRandomColorSet(), // 랜덤 색상 세트 추가
+            colorSet: getRandomColorSet(), // add random colorset
           };
         });
         setProjects(projectsWithColors);
       } catch (error) {
-        console.error("프로젝트 불러오기 실패:", error.message);
+        console.error("fail to loading projects:", error.message);
+      } finally {
+        setLoading(false);
       }
     };
 
@@ -91,44 +95,44 @@ const ProjectPage = () => {
       <Heading as="h1" color="mgreen" text="PROJECTS" />
       <Margin dir={"vertical"} space={"120px"} />
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {projects.map((project, i) => {
-          return (
-            <div
-              key={i}
-              onClick={() =>
-                clickProject(project.project_id._id, project.colorSet)
-              }
-              className={`box_card flex flex-col border-2 border-slate-700 rounded-sm ${project.colorSet.hoverBorder}`}
-              style={{
-                backgroundImage: `url(../../images/${project.thumbnail})`,
-                backgroundSize: "cover",
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
-              }}
-            >
-              <div className="card_text flex flex-col h-full bg-white/70 p-4">
-                <div className="mt-auto">
-                  <p className={`font-russo text-2xl text-slate-700 mb-4`}>
-                    {project.project_id.title}
-                  </p>
-                  <p className={`text-slate-700 text-lg leading-none`}>
-                    {project.s_description}
-                  </p>
-                  <p className="text-white text-md leading-none mt-4">
-                    {project.role.map((role, i) => (
-                      <span
-                        key={i}
-                        className={`role py-1 px-2 rounded-2xl text-slate-700 bg-slate-200`}
-                      >
-                        {role}
-                      </span>
-                    ))}
-                  </p>
+        {loading
+          ? Array.from({ length: 6 }).map((_, i) => <SkeletonCard key={i} />)
+          : projects.map((project, i) => (
+              <div
+                key={i}
+                onClick={() =>
+                  clickProject(project.project_id._id, project.colorSet)
+                }
+                className={`box_card flex flex-col border-2 border-slate-700 rounded-sm ${project.colorSet.hoverBorder}`}
+                style={{
+                  backgroundImage: `url(../../images/${project.thumbnail})`,
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  backgroundPosition: "center",
+                }}
+              >
+                <div className="card_text flex flex-col h-full bg-white/70 p-4">
+                  <div className="mt-auto">
+                    <p className={`font-russo text-2xl text-slate-700 mb-4`}>
+                      {project.project_id.title}
+                    </p>
+                    <p className={`text-slate-700 text-lg leading-none`}>
+                      {project.s_description}
+                    </p>
+                    <p className="text-white text-md leading-none mt-4">
+                      {project.role.map((role, i) => (
+                        <span
+                          key={i}
+                          className={`role py-1 px-2 rounded-2xl text-slate-700 bg-slate-200`}
+                        >
+                          {role}
+                        </span>
+                      ))}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            ))}
       </div>
       <Margin dir={"vertical"} space={"36px"} />
       <AnimatePresence>
