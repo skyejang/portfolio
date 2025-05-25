@@ -66,12 +66,17 @@ const DetailPage = ({ data, onClose }) => {
                 <p className="detail-content">{data.work_type}</p>
               </div>
               <div className="flex-1 max-md:mt-6">
-                (data.link &&
-                <p className="detail-title">Link</p>
-                <a className="detail-content hover:underline" href={data.link}>
-                  {data.link}
-                </a>
-                )
+                {data.link && (
+                  <>
+                    <p className="detail-title">Link</p>
+                    <a
+                      className="detail-content hover:underline"
+                      href={data.link}
+                    >
+                      {data.link}
+                    </a>
+                  </>
+                )}
               </div>
             </div>
             {/* description */}

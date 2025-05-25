@@ -87,7 +87,7 @@ const AboutPage = () => {
       name: "Amorepacific Canada",
       period: "(Oct 2024 - )",
       role: "IT Assistant",
-      text: "Supported laptop setup, IT asset management, and user issue resolution, ensuring seamless operations and creating IT guidelines to enhance productivity and user satisfaction.",
+      text: "Supported IT procurement and asset management for hardware (laptops, phones, POS systems) and software licenses, assisting in coordination with multiple vendors such as CDW, Rogers, and Beanfield. Assisted with the deployment and configuration of security tools including Symantec SEP, Powerpack DLP, iMon, and Zscaler to help maintain asset security. Served as the first point of contact for internal and external users, providing initial technical support via phone, email, and ITSM platforms such as Zendesk and Freshservice.",
     },
     {
       name: "Thinkserv.",
@@ -99,13 +99,13 @@ const AboutPage = () => {
       name: "Chatis",
       period: "(Mar 2022 - Dec 2022)",
       role: "Frontend developer",
-      text: "Developed an e-commerce solution application using PHP Laravel, Tailwind CSS, and Vue.js, focusing on delivering robust and user-friendly online shopping experiences.",
+      text: "Developed a full-featured e-commerce web application using PHP Laravel, Tailwind CSS, and Vue.js, focusing on a responsive and intuitive user experience. Collaborated using Notion and task management tools to ensure smooth development. Implemented robust API communication with Axios, applied exception handling and UX optimizations, and maintained high code quality with ESLint and Prettier. Backend was powered by Laravel’s Eloquent ORM with Redis caching and MySQL, supporting dynamic data modeling and efficient RESTful API operations. Also incorporated Canvas.js to enhance interactivity with custom ladder game features.",
     },
     {
       name: "Otheon",
       period: "(Dec 2020 - Nov 2021)",
       role: "Frontend developer",
-      text: "Developed a marketing platform for small and medium-sized businesses using node.js and express. Managed the entire project, including project management, UI design, and frontend development for website creation.",
+      text: "Developed a marketing platform tailored for small and medium-sized businesses using Node.js and Express. Took full ownership of the project including planning, UI design, and frontend development with Vanilla JS and EJS. The platform significantly streamlined administrative tasks, reduced managerial workload, and has remained in continuous use for over 5 years, demonstrating its long-term value and user satisfaction.",
     },
   ];
   const educations = [
