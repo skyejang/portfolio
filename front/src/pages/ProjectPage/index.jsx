@@ -46,7 +46,7 @@ function getRandomColorSet() {
 const ProjectPage = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
-
+  const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     const fetchProjects = async () => {
       try {
@@ -65,7 +65,15 @@ const ProjectPage = () => {
       }
     };
 
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 512);
+    };
+
     fetchProjects();
+    checkMobile(); // 초기 체크
+    window.addEventListener("resize", checkMobile);
+
+    return () => window.removeEventListener("resize", checkMobile);
   }, []);
   const [selectedProject, setSelectedProject] = useState(null);
 
@@ -91,7 +99,7 @@ const ProjectPage = () => {
   };
   // const data
   return (
-    <div className="p-9 w-full h-screen">
+    <div className="p-6 xs:p-9 w-full h-screen">
       <Heading as="h1" color="mgreen" text="PROJECTS" />
       <Margin dir={"vertical"} space={"120px"} />
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -111,7 +119,13 @@ const ProjectPage = () => {
                   backgroundPosition: "center",
                 }}
               >
-                <div className="card_text flex flex-col h-full bg-white/70 p-4">
+                <div
+                  className={`card_text flex flex-col h-full  p-4 ${
+                    isMobile
+                      ? "opacity-100 bg-white/80"
+                      : "opacity-0 hover:opacity-100 bg-white/70"
+                  }`}
+                >
                   <div className="mt-auto">
                     <p className={`font-russo text-2xl text-slate-700 mb-4`}>
                       {project.project_id.title}

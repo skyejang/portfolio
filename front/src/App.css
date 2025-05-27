@@ -8,12 +8,16 @@
   cursor: pointer;
 }
 .card_text {
-  opacity: 0;
-}
-.box_card:hover .card_text {
-  opacity: 100;
   transition: all ease 0.7s;
 }
+/* .box_card:hover .card_text {
+  opacity: 1;
+} */
+/* @media (max-width: 359px) {
+  .card_text {
+    opacity: 1 !important;
+  }
+} */
 
 .marquee-wrapper {
   overflow: hidden;

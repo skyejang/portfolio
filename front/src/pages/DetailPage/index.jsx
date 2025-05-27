@@ -72,6 +72,7 @@ const DetailPage = ({ data, onClose }) => {
                     <a
                       className="detail-content hover:underline"
                       href={data.link}
+                      target="_blank"
                     >
                       {data.link}
                     </a>

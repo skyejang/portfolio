@@ -41,7 +41,7 @@ const config = {
     },
     screens: {
       xxs: { max: "359px" },
-      xs: "32rem",
+      xs: "512px",
       sm: "640px", // 기본 유지
       md: "768px",
       lg: "1024px",

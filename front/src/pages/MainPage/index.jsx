@@ -12,7 +12,7 @@ const MainPage = () => {
         <Heading as="h1" color="mgreen" text="RIGHT NOW." />
       </div>
       <div className="absolute right-4 bottom-4 sm:right-9 sm:bottom-9 flex">
-        <a href="https://github.com/skyejang" className="mr-4">
+        <a target="_blank" href="https://github.com/skyejang" className="mr-4">
           <svg
             width="28"
             height="28"
@@ -35,7 +35,10 @@ const MainPage = () => {
             </defs>
           </svg>
         </a>
-        <a href="https://www.linkedin.com/in/suyeon-jang-95196026a/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/suyeon-jang-95196026a/"
+        >
           <svg
             width="28"
             height="28"

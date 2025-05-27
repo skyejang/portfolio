@@ -206,10 +206,15 @@
   transform: translateY(-50%);
   margin-left: calc(50% - 36px);
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .contact-page {
     margin-left: 0;
-    transform: translateX(-50%) translateY(-50%);
+    width: calc(100% - 72px);
+  }
+}
+@media (max-width: 768px) {
+  .contact-page {
+    transform: translateY(-50%);
   }
 }
 /* page */
