@@ -52,5 +52,11 @@
     "role": ["Frontend Developer", "UI Design"],
     "s_description": "Developed a release date reminder movie mobile app",
     "project_id": "6816d2e14884e0ab32cd8253"
+  },
+  {
+    "thumbnail": "https://example.com/thumb.png",
+    "role": ["Frontend Developer"],
+    "s_description": "Developed a release date reminder movie mobile app",
+    "project_id": "6816d2e14884e0ab32cd8253"
   }
 ]

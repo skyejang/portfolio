@@ -166,5 +166,24 @@
       "Initially, I underestimated the importance of each stage, but as the project progressed, I realized how vital they were. Through this experience, I gained insights into decision-making both in team environments and as an independent developer. I learned to prioritize effectively, balance technical and design considerations, and take ownership of a project from start to finish."
     ],
     "images": ["image1.jpg", "image2.jpg"]
+  },
+  {
+    "title": "Card Matching Game : HANPAN MATCH",
+    "link": "https://card-matching-rho.vercel.app/",
+    "description": [
+      "This project is a card matching game inspired by traditional Korean colors and the Four Gracious Plants (Plum Blossom, Orchid, Chrysanthemum, and Bamboo). Built with React and styled using Tailwind CSS, the game integrates Firebase to provide a real-time leaderboard system. Players can choose from three difficulty levels—Easy, Normal, and Hard—and view their ranking based on clear time upon completion. The game is fully responsive and optimized for both desktop and mobile devices. It is deployed on Vercel using Vite for fast build and development experience.",
+      "Key features include a comprehensive movie listing, detailed movie information, and the ability to manage push notifications. Users can also customize and maintain a favorites list to keep track of movies they’re most excited about."
+    ],
+    "stack": ["React.js", "Tailwind css", "Firebase"],
+    "work_type": "Personal Project",
+    "contribution": [
+      "Designed the overall architecture and implemented core game logic using React, including state management and component structure.",
+      "Integrated Firebase Firestore to store completion times and fetch real-time ranking data for each difficulty level.",
+      "Used Tailwind CSS to apply a traditional Korean design aesthetic based on Dancheong color palettes and floral motifs representing the Four Gracious Plants.",
+      "Implemented a responsive layout that adjusts the card grid dynamically based on screen size and difficulty level, ensuring a smooth experience across devices.",
+      "Utilized Vite for rapid development and deployed the game using Vercel, streamlining the build and hosting process without additional CI/CD configuration.",
+      "Developed the difficulty progression logic, where completing Easy or Normal modes unlocks the next stage, enhancing user engagement through challenge escalation."
+    ],
+    "images": ["image1.jpg", "image2.jpg"]
   }
 ]
